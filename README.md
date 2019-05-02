@@ -1,5 +1,5 @@
 # Any Length
-Return length of any type.
+This module returns length of any type.
 
 ## Install
 
