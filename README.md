@@ -13,13 +13,13 @@ $ npm install --save any-length
 
 const anyLength = require('any-length');
 
-assert.deepEqual( anyLength(123), 3 ); // return 3
+console.log( anyLength(123), 3 ); // return 3
 
-assert.deepEqual( anyLength("foo"), 3 ); // return 3
+console.log( anyLength("foo"), 3 ); // return 3
 
-assert.deepEqual( anyLength([ 1, 2, 3, 4, 5 ]), 5 ); // return 5
+console.log( anyLength([ 1, 2, 3, 4, 5 ]), 5 ); // return 5
 
-assert.deepEqual( anyLength({ a: "b", c: "d" } ), 2 ); // return 2
+console.log( anyLength({ a: "b", c: "d" } ), 2 ); // return 2
 
 ```
 
